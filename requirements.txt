@@ -1,0 +1,9 @@
+Flask
+Flask-SocketIO
+python-socketio
+scikit-learn
+pandas
+numpy
+scapy
+psutil
+cicflowmeter

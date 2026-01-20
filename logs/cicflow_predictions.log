@@ -1,0 +1,149 @@
+2025-11-08 23:29:05,448 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.127.115:5000
+2025-11-08 23:29:05,448 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-08 23:40:00,003 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.127.115:5000
+2025-11-08 23:40:00,004 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-08 23:40:56,979 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.127.115:5000
+2025-11-08 23:40:56,979 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-08 23:43:20,758 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.127.115:5000
+2025-11-08 23:43:20,759 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-08 23:45:57,657 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.127.115:5000
+2025-11-08 23:45:57,658 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-08 23:47:27,340 - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Asus\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Asus\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Asus\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Asus\Documents\GitHub\CyberAI_Hackathon\app.py", line 248, in index
+    return render_template('dashboard_cicflow.html')
+  File "C:\Users\Asus\AppData\Roaming\Python\Python313\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\Asus\AppData\Roaming\Python\Python313\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python313\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python313\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\Asus\AppData\Roaming\Python\Python313\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python313\site-packages\flask\templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python313\site-packages\flask\templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: dashboard_cicflow.html
+2025-11-08 23:47:27,878 - INFO - 127.0.0.1 - - [08/Nov/2025 23:47:27] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-08 23:47:38,254 - INFO - 127.0.0.1 - - [08/Nov/2025 23:47:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-08 23:47:45,414 - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Asus\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Asus\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Asus\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Asus\Documents\GitHub\CyberAI_Hackathon\app.py", line 248, in index
+    return render_template('dashboard_cicflow.html')
+  File "C:\Users\Asus\AppData\Roaming\Python\Python313\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\Asus\AppData\Roaming\Python\Python313\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python313\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python313\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\Asus\AppData\Roaming\Python\Python313\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python313\site-packages\flask\templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python313\site-packages\flask\templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: dashboard_cicflow.html
+2025-11-08 23:47:45,433 - INFO - 127.0.0.1 - - [08/Nov/2025 23:47:45] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-08 23:47:55,046 - INFO - 127.0.0.1 - - [08/Nov/2025 23:47:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-08 23:49:18,912 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.127.115:5000
+2025-11-08 23:49:18,912 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-08 23:51:39,112 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.127.115:5000
+2025-11-08 23:51:39,114 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-08 23:51:52,226 - INFO - 127.0.0.1 - - [08/Nov/2025 23:51:52] "GET / HTTP/1.1" 200 -
+2025-11-08 23:51:53,138 - INFO - 127.0.0.1 - - [08/Nov/2025 23:51:53] "GET /socket.io/?EIO=4&transport=polling&t=Pfaj0vQ HTTP/1.1" 200 -
+2025-11-08 23:51:57,249 - INFO - 127.0.0.1 - - [08/Nov/2025 23:51:57] "POST /socket.io/?EIO=4&transport=polling&t=Pfaj1vV&sid=5pP6YINdTfIyGjNkAAAA HTTP/1.1" 200 -
+2025-11-08 23:51:57,268 - INFO - 127.0.0.1 - - [08/Nov/2025 23:51:57] "GET /socket.io/?EIO=4&transport=polling&t=Pfaj1ve&sid=5pP6YINdTfIyGjNkAAAA HTTP/1.1" 200 -
+2025-11-08 23:51:57,332 - INFO - 127.0.0.1 - - [08/Nov/2025 23:51:57] "GET /socket.io/?EIO=4&transport=polling&t=Pfaj1x6&sid=5pP6YINdTfIyGjNkAAAA HTTP/1.1" 200 -
+2025-11-08 23:51:57,617 - INFO - 127.0.0.1 - - [08/Nov/2025 23:51:57] "GET /socket.io/?EIO=4&transport=polling&t=Pfaj1-w&sid=5pP6YINdTfIyGjNkAAAA HTTP/1.1" 200 -
+2025-11-08 23:52:01,319 - INFO - 127.0.0.1 - - [08/Nov/2025 23:52:01] "[35m[1mPOST /api/start-live HTTP/1.1[0m" 500 -
+2025-11-08 23:52:01,342 - ERROR - CICFlowMeter error: [WinError 2] The system cannot find the file specified
+2025-11-08 23:52:07,190 - INFO - 127.0.0.1 - - [08/Nov/2025 23:52:07] "[35m[1mPOST /api/start-live HTTP/1.1[0m" 500 -
+2025-11-08 23:52:07,201 - ERROR - CICFlowMeter error: [WinError 2] The system cannot find the file specified
+2025-11-08 23:52:10,122 - INFO - 127.0.0.1 - - [08/Nov/2025 23:52:10] "[35m[1mPOST /api/start-live HTTP/1.1[0m" 500 -
+2025-11-08 23:52:10,142 - ERROR - CICFlowMeter error: [WinError 2] The system cannot find the file specified
+2025-11-08 23:52:10,481 - INFO - 127.0.0.1 - - [08/Nov/2025 23:52:10] "[35m[1mPOST /api/start-live HTTP/1.1[0m" 500 -
+2025-11-08 23:52:10,497 - ERROR - CICFlowMeter error: [WinError 2] The system cannot find the file specified
+2025-11-08 23:52:10,667 - INFO - 127.0.0.1 - - [08/Nov/2025 23:52:10] "[35m[1mPOST /api/start-live HTTP/1.1[0m" 500 -
+2025-11-08 23:52:10,682 - ERROR - CICFlowMeter error: [WinError 2] The system cannot find the file specified
+2025-11-08 23:52:10,836 - INFO - 127.0.0.1 - - [08/Nov/2025 23:52:10] "[35m[1mPOST /api/start-live HTTP/1.1[0m" 500 -
+2025-11-08 23:52:10,849 - ERROR - CICFlowMeter error: [WinError 2] The system cannot find the file specified
+2025-11-08 23:52:12,399 - INFO - 127.0.0.1 - - [08/Nov/2025 23:52:12] "[35m[1mPOST /api/start-live HTTP/1.1[0m" 500 -
+2025-11-08 23:52:12,413 - ERROR - CICFlowMeter error: [WinError 2] The system cannot find the file specified
+2025-11-08 23:52:26,213 - INFO - 127.0.0.1 - - [08/Nov/2025 23:52:26] "[35m[1mPOST /api/start-live HTTP/1.1[0m" 500 -
+2025-11-08 23:52:26,226 - ERROR - CICFlowMeter error: [WinError 2] The system cannot find the file specified
+2025-11-08 23:52:26,601 - INFO - 127.0.0.1 - - [08/Nov/2025 23:52:26] "[35m[1mPOST /api/start-live HTTP/1.1[0m" 500 -
+2025-11-08 23:52:26,615 - ERROR - CICFlowMeter error: [WinError 2] The system cannot find the file specified
+2025-11-08 23:52:26,766 - INFO - 127.0.0.1 - - [08/Nov/2025 23:52:26] "[35m[1mPOST /api/start-live HTTP/1.1[0m" 500 -
+2025-11-08 23:52:26,779 - ERROR - CICFlowMeter error: [WinError 2] The system cannot find the file specified
+2025-11-08 23:52:26,928 - INFO - 127.0.0.1 - - [08/Nov/2025 23:52:26] "[35m[1mPOST /api/start-live HTTP/1.1[0m" 500 -
+2025-11-08 23:52:26,941 - ERROR - CICFlowMeter error: [WinError 2] The system cannot find the file specified
+2025-11-08 23:52:43,331 - INFO - 127.0.0.1 - - [08/Nov/2025 23:52:43] "[35m[1mPOST /api/start-live HTTP/1.1[0m" 500 -
+2025-11-08 23:52:43,344 - ERROR - CICFlowMeter error: [WinError 2] The system cannot find the file specified
+2025-11-08 23:58:42,750 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.127.115:5000
+2025-11-08 23:58:42,750 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-08 23:58:44,534 - INFO - 127.0.0.1 - - [08/Nov/2025 23:58:44] "GET /socket.io/?EIO=4&transport=polling&t=PfakbLd HTTP/1.1" 200 -
+2025-11-08 23:58:44,571 - INFO - 127.0.0.1 - - [08/Nov/2025 23:58:44] "POST /socket.io/?EIO=4&transport=polling&t=PfakbM0&sid=zFgkBu4ZvWfQjAhCAAAA HTTP/1.1" 200 -
+2025-11-08 23:58:44,575 - INFO - 127.0.0.1 - - [08/Nov/2025 23:58:44] "GET /socket.io/?EIO=4&transport=polling&t=PfakbM3&sid=zFgkBu4ZvWfQjAhCAAAA HTTP/1.1" 200 -
+2025-11-08 23:58:45,282 - INFO - 127.0.0.1 - - [08/Nov/2025 23:58:45] "GET /socket.io/?EIO=4&transport=websocket&sid=zFgkBu4ZvWfQjAhCAAAA HTTP/1.1" 200 -
+2025-11-08 23:58:45,309 - INFO - 127.0.0.1 - - [08/Nov/2025 23:58:45] "GET / HTTP/1.1" 200 -
+2025-11-08 23:58:45,549 - INFO - 127.0.0.1 - - [08/Nov/2025 23:58:45] "GET /socket.io/?EIO=4&transport=polling&t=PfakbbS HTTP/1.1" 200 -
+2025-11-08 23:58:45,643 - INFO - 127.0.0.1 - - [08/Nov/2025 23:58:45] "POST /socket.io/?EIO=4&transport=polling&t=Pfakbch&sid=FbPjeYhb4_q3UKxIAAAC HTTP/1.1" 200 -
+2025-11-08 23:58:45,649 - INFO - 127.0.0.1 - - [08/Nov/2025 23:58:45] "GET /socket.io/?EIO=4&transport=polling&t=Pfakbck&sid=FbPjeYhb4_q3UKxIAAAC HTTP/1.1" 200 -
+2025-11-08 23:58:45,873 - INFO - 127.0.0.1 - - [08/Nov/2025 23:58:45] "GET /socket.io/?EIO=4&transport=polling&t=PfakbgH&sid=FbPjeYhb4_q3UKxIAAAC HTTP/1.1" 200 -
+2025-11-08 23:58:47,824 - INFO - 127.0.0.1 - - [08/Nov/2025 23:58:47] "[35m[1mPOST /api/start-live HTTP/1.1[0m" 500 -
+2025-11-08 23:58:47,841 - ERROR - CICFlowMeter error: [WinError 2] The system cannot find the file specified
