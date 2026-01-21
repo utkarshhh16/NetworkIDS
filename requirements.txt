@@ -7,3 +7,4 @@ numpy
 scapy
 psutil
 cicflowmeter
+gunicorn
